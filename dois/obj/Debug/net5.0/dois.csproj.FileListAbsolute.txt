@@ -1,0 +1,16 @@
+C:\Users\Pichau\Desktop\Exercicios4\dois\bin\Debug\net5.0\dois.exe
+C:\Users\Pichau\Desktop\Exercicios4\dois\bin\Debug\net5.0\dois.deps.json
+C:\Users\Pichau\Desktop\Exercicios4\dois\bin\Debug\net5.0\dois.runtimeconfig.json
+C:\Users\Pichau\Desktop\Exercicios4\dois\bin\Debug\net5.0\dois.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Exercicios4\dois\bin\Debug\net5.0\dois.dll
+C:\Users\Pichau\Desktop\Exercicios4\dois\bin\Debug\net5.0\ref\dois.dll
+C:\Users\Pichau\Desktop\Exercicios4\dois\bin\Debug\net5.0\dois.pdb
+C:\Users\Pichau\Desktop\Exercicios4\dois\obj\Debug\net5.0\dois.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Exercicios4\dois\obj\Debug\net5.0\dois.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\Desktop\Exercicios4\dois\obj\Debug\net5.0\dois.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Exercicios4\dois\obj\Debug\net5.0\dois.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Exercicios4\dois\obj\Debug\net5.0\dois.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Exercicios4\dois\obj\Debug\net5.0\dois.dll
+C:\Users\Pichau\Desktop\Exercicios4\dois\obj\Debug\net5.0\ref\dois.dll
+C:\Users\Pichau\Desktop\Exercicios4\dois\obj\Debug\net5.0\dois.pdb
+C:\Users\Pichau\Desktop\Exercicios4\dois\obj\Debug\net5.0\dois.genruntimeconfig.cache

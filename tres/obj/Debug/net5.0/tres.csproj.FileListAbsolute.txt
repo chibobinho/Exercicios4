@@ -1,0 +1,16 @@
+C:\Users\Pichau\Desktop\Exercicios4\tres\bin\Debug\net5.0\tres.exe
+C:\Users\Pichau\Desktop\Exercicios4\tres\bin\Debug\net5.0\tres.deps.json
+C:\Users\Pichau\Desktop\Exercicios4\tres\bin\Debug\net5.0\tres.runtimeconfig.json
+C:\Users\Pichau\Desktop\Exercicios4\tres\bin\Debug\net5.0\tres.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Exercicios4\tres\bin\Debug\net5.0\tres.dll
+C:\Users\Pichau\Desktop\Exercicios4\tres\bin\Debug\net5.0\ref\tres.dll
+C:\Users\Pichau\Desktop\Exercicios4\tres\bin\Debug\net5.0\tres.pdb
+C:\Users\Pichau\Desktop\Exercicios4\tres\obj\Debug\net5.0\tres.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Exercicios4\tres\obj\Debug\net5.0\tres.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\Desktop\Exercicios4\tres\obj\Debug\net5.0\tres.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Exercicios4\tres\obj\Debug\net5.0\tres.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Exercicios4\tres\obj\Debug\net5.0\tres.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Exercicios4\tres\obj\Debug\net5.0\tres.dll
+C:\Users\Pichau\Desktop\Exercicios4\tres\obj\Debug\net5.0\ref\tres.dll
+C:\Users\Pichau\Desktop\Exercicios4\tres\obj\Debug\net5.0\tres.pdb
+C:\Users\Pichau\Desktop\Exercicios4\tres\obj\Debug\net5.0\tres.genruntimeconfig.cache

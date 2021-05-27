@@ -1,0 +1,16 @@
+C:\Users\Pichau\Desktop\Exercicios4\um\obj\Debug\net5.0\um.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Exercicios4\um\obj\Debug\net5.0\um.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\Desktop\Exercicios4\um\obj\Debug\net5.0\um.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Exercicios4\um\obj\Debug\net5.0\um.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Exercicios4\um\obj\Debug\net5.0\um.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Exercicios4\um\bin\Debug\net5.0\um.exe
+C:\Users\Pichau\Desktop\Exercicios4\um\bin\Debug\net5.0\um.deps.json
+C:\Users\Pichau\Desktop\Exercicios4\um\bin\Debug\net5.0\um.runtimeconfig.json
+C:\Users\Pichau\Desktop\Exercicios4\um\bin\Debug\net5.0\um.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Exercicios4\um\bin\Debug\net5.0\um.dll
+C:\Users\Pichau\Desktop\Exercicios4\um\bin\Debug\net5.0\ref\um.dll
+C:\Users\Pichau\Desktop\Exercicios4\um\bin\Debug\net5.0\um.pdb
+C:\Users\Pichau\Desktop\Exercicios4\um\obj\Debug\net5.0\um.dll
+C:\Users\Pichau\Desktop\Exercicios4\um\obj\Debug\net5.0\ref\um.dll
+C:\Users\Pichau\Desktop\Exercicios4\um\obj\Debug\net5.0\um.pdb
+C:\Users\Pichau\Desktop\Exercicios4\um\obj\Debug\net5.0\um.genruntimeconfig.cache
