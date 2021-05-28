@@ -1,66 +1,108 @@
 using System;
 namespace um.Classes
 {
-    public class Elevador
+    public abstract class Elevador
     {
-        public int AndarAtual = 0;
-        public int Andares;
-        public int Capacidade;
-        public int PessoasDentro = 0;
-        public int AndarDesejado;
-
-        public void Inicializar()
+        private int andarAtual;
+        private int totalAndares;
+        private int capacidade;
+        private int presentes;
+        private int capacidadeCaixas;
+        private int presentesCaixas;
+        public void Inicializar(int capacidadeTotal, int totalCaixas, int andaresPredio)
         {
-            Console.WriteLine("Quantos andares tem o prédio?");
-            Andares = int.Parse(Console.ReadLine());
+            andarAtual = 0;
+            presentes = 0;
+            totalAndares = andaresPredio;
+            capacidadeCaixas = totalCaixas;
+            capacidade = capacidadeTotal;
 
-            Console.WriteLine("Qual a capacidade desse elevador?");
-            Capacidade = int.Parse(Console.ReadLine());
+
         }
-
+        public void Entrar()
+        {
+            if (capacidade > presentes)
+            {
+                presentes = presentes + 1;
+                Console.WriteLine("Entrou mais uma pessoa no elevador!");
+            }
+            else
+            {
+                Console.WriteLine("O elevador já está lotado!");
+            }
+        }
+        public void Sair()
+        {
+            if (presentes > 0)
+            {
+                presentes = presentes - 1;
+                Console.WriteLine("Uma pessoa saiu do elevador!");
+            }
+            else
+            {
+                Console.WriteLine("Não tem ninguem aqui!");
+            }
+        }
         public void Subir()
         {
-            do
+            if (andarAtual < totalAndares)
             {
-                Console.WriteLine("Para qual andar você quer ir?");
-                AndarDesejado = int.Parse(Console.ReadLine());
-
-                if (AndarDesejado < Andares)
-                {
-                    for (var i = 0; i < AndarDesejado; i++)
-                    {
-                        AndarAtual = AndarAtual + 1;
-                    }
-                    Console.WriteLine($"Voce está no andar {AndarAtual}");
-                }
-                else
-                {
-                    Console.WriteLine("O número desejado não se encontra.");
-                }
-            } while (AndarDesejado > Andares);
+                andarAtual = andarAtual + 1;
+                Console.WriteLine("O elevador subiu um andar.");
+            }
+            else
+            {
+                Console.WriteLine("Ta querendo voar mano? Ultimo andar já.");
+            }
         }
+        public void Subir(int andarDesejado)
+        {
+            if (andarDesejado >= 0 && andarDesejado <= totalAndares)
+            {
+                andarAtual = andarDesejado;
+                Console.WriteLine($"Fomos para o andar {andarDesejado}");
+            }
+            else
+            {
+                Console.WriteLine("Tá maluco, não existe esse andar n fi.");
+            }
 
+        }
         public void Descer()
         {
-            do
+            if (andarAtual > 0)
             {
-                Console.WriteLine("Para qual andar você quer ir?");
-                AndarDesejado = int.Parse(Console.ReadLine());
-
-                if (AndarDesejado > Andares)
-                {
-                    for (var i = 0; i > AndarDesejado; i++)
-                    {
-                        AndarAtual = AndarAtual - 1;
-                    }
-                    Console.WriteLine($"Voce está no andar {AndarAtual}");
-                }
-                else
-                {
-                    Console.WriteLine("O número desejado não se encontra.");
-                }
-            } while (AndarDesejado < Andares);
+                andarAtual = andarAtual - 1;
+                Console.WriteLine("O elevador desceu um andar.");
+            }
+            else
+            {
+                Console.WriteLine("Ta querendo virar topeira? Estamos no terreo.");
+            }
+        }
+        public void EntrarCaixa()
+        {
+            if (capacidadeCaixas > presentesCaixas)
+            {
+                presentesCaixas = presentesCaixas + 1;
+                Console.WriteLine("Entrou mais uma caixa no elevador!");
+            }
+            else
+            {
+                Console.WriteLine("O elevador já está lotado de caixa!");
+            }
+        }
+        public void SairCaixa()
+        {
+            if (presentesCaixas > 0)
+            {
+                presentesCaixas = presentesCaixas - 1;
+                Console.WriteLine("Uma pessoa caixa foi retirada do elevador!");
+            }
+            else
+            {
+                Console.WriteLine("Não tem nenhuma caixa aqui!");
+            }
         }
     }
 }
-
